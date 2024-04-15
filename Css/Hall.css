@@ -1,0 +1,390 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+input[type="checkbox"].fan {
+  opacity: 0;
+  position: absolute;
+  left: -9000px;
+  top: -9000px;
+}
+
+input[type="checkbox"].fan + label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+input[type="checkbox"].fan + label::before {
+  content: "";
+  width: 5em;
+  height: 3em;
+  background-color: #aaaaaa;
+  border-radius: 2em;
+  margin-right: 0.25em;
+  transition: background-color 200ms ease-in-out;
+}
+
+input[type="checkbox"].fan + label::after {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  content: "";
+  font-size: 1.3em;
+  height: 0.9em;
+  left: 0.2em;
+  width: 1.8em;
+  height: 1.8em;
+  background-color: white;
+  color: white;
+  border-radius: 1em;
+  transition: background-color 200ms ease-in-out, transform 200ms ease-in-out;
+}
+
+input[type="checkbox"].fan:focus + label::before {
+  outline: 1px solid black;
+}
+
+input[type="checkbox"].fan:checked + label::before {
+  background-color: #8c83ef;
+}
+
+input[type="checkbox"].fan:checked + label::after {
+  content: "";
+  transform: translateX(95%);
+  background-color: white;
+}
+input[type="checkbox"].Light {
+  opacity: 0;
+  position: absolute;
+  left: -9000px;
+  top: -9000px;
+}
+
+input[type="checkbox"].Light + label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+input[type="checkbox"].Light + label::before {
+  content: "";
+  width: 5em;
+  height: 3em;
+  background-color: #aaaaaa;
+  border-radius: 2em;
+  margin-right: 0.25em;
+  transition: background-color 200ms ease-in-out;
+}
+
+input[type="checkbox"].Light + label::after {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  content: "";
+  font-size: 1.3em;
+  height: 0.9em;
+  left: 0.2em;
+  width: 1.8em;
+  height: 1.8em;
+  background-color: white;
+  color: white;
+  border-radius: 1em;
+  transition: background-color 200ms ease-in-out, transform 200ms ease-in-out;
+}
+
+input[type="checkbox"].Light:focus + label::before {
+  outline: 1px solid black;
+}
+
+input[type="checkbox"].Light:checked + label::before {
+  background-color: #8c83ef;
+}
+
+input[type="checkbox"].Light:checked + label::after {
+  content: "";
+  transform: translateX(95%);
+  background-color: white;
+}
+
+input[type="checkbox"].AC {
+  opacity: 0;
+  position: absolute;
+  left: -9000px;
+  top: -9000px;
+}
+
+input[type="checkbox"].AC + label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+input[type="checkbox"].AC + label::before {
+  content: "";
+  width: 5em;
+  height: 3em;
+  background-color: #aaaaaa;
+  border-radius: 2em;
+  margin-right: 0.25em;
+  transition: background-color 200ms ease-in-out;
+}
+
+input[type="checkbox"].AC + label::after {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  content: "";
+  font-size: 1.3em;
+  height: 0.9em;
+  left: 0.2em;
+  width: 1.8em;
+  height: 1.8em;
+  background-color: white;
+  color: white;
+  border-radius: 1em;
+  transition: background-color 200ms ease-in-out, transform 200ms ease-in-out;
+}
+
+input[type="checkbox"].AC:focus + label::before {
+  outline: 1px solid black;
+}
+
+input[type="checkbox"].AC:checked + label::before {
+  background-color: #8c83ef;
+}
+
+input[type="checkbox"].AC:checked + label::after {
+  content: "";
+  transform: translateX(95%);
+  background-color: white;
+}
+input[type="checkbox"].Blinds {
+  opacity: 0;
+  position: absolute;
+  left: -9000px;
+  top: -9000px;
+}
+
+input[type="checkbox"].Blinds + label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+input[type="checkbox"].Blinds + label::before {
+  content: "";
+  width: 5em;
+  height: 3em;
+  background-color: #aaaaaa;
+  border-radius: 2em;
+  margin-right: 0.25em;
+  transition: background-color 200ms ease-in-out;
+}
+
+input[type="checkbox"].Blinds + label::after {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  content: "";
+  font-size: 1.3em;
+  height: 0.9em;
+  left: 0.2em;
+  width: 1.8em;
+  height: 1.8em;
+  background-color: white;
+  color: white;
+  border-radius: 1em;
+  transition: background-color 200ms ease-in-out, transform 200ms ease-in-out;
+}
+
+input[type="checkbox"].Blinds:focus + label::before {
+  outline: 1px solid black;
+}
+
+input[type="checkbox"].Blinds:checked + label::before {
+  background-color: #8c83ef;
+}
+
+input[type="checkbox"].Blinds:checked + label::after {
+  content: "";
+  transform: translateX(95%);
+  background-color: white;
+}
+
+.hall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  color: #8c83ef;
+  margin: 3rem 0rem;
+}
+p {
+  font-size: 2rem;
+  margin: 1rem;
+}
+.fanDiv {
+  box-shadow: 0.3rem 0.3rem 2rem rgb(170, 170, 170);
+  border-radius: 2rem;
+  margin: 2%;
+  padding: 2%;
+}
+.BlindsDiv {
+  box-shadow: 0.3rem 0.3rem 2rem rgb(170, 170, 170);
+  border-radius: 2rem;
+  margin: 2%;
+  padding: 2%;
+}
+
+.fanImg {
+  width: 10rem;
+  opacity: 0.7;
+}
+.lightImg {
+  width: 10rem;
+  opacity: 0.6;
+  margin: 1rem 1rem;
+}
+.ACImg {
+  width: 20rem;
+  opacity: 0.6;
+  margin: 2.1rem 1rem 2.1rem 1.5rem;
+}
+.curtainImg {
+  width: 14rem;
+  /* margin: 1.5rem 1rem; */
+}
+
+input[type="checkbox"].FirePlace {
+  opacity: 0;
+  position: absolute;
+  left: -9000px;
+  top: -9000px;
+}
+
+input[type="checkbox"].FirePlace + label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+input[type="checkbox"].FirePlace + label::before {
+  content: "";
+  width: 5em;
+  height: 3em;
+  background-color: #aaaaaa;
+  border-radius: 2em;
+  margin-right: 0.25em;
+  transition: background-color 200ms ease-in-out;
+}
+
+input[type="checkbox"].FirePlace + label::after {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  content: "";
+  font-size: 1.3em;
+  height: 0.9em;
+  left: 0.2em;
+  width: 1.8em;
+  height: 1.8em;
+  background-color: white;
+  color: white;
+  border-radius: 1em;
+  transition: background-color 200ms ease-in-out, transform 200ms ease-in-out;
+}
+
+input[type="checkbox"].FirePlace:focus + label::before {
+  outline: 1px solid black;
+}
+
+input[type="checkbox"].FirePlace:checked + label::before {
+  background-color: #8c83ef;
+}
+
+input[type="checkbox"].FirePlace:checked + label::after {
+  content: "";
+  transform: translateX(95%);
+  background-color: white;
+}
+.FireImg {
+  width: 10rem;
+  opacity: 0.75;
+  margin: 0.5rem 0.5rem 0.5rem 3rem;
+}
+input[type="checkbox"].TV {
+  opacity: 0;
+  position: absolute;
+  left: -9000px;
+  top: -9000px;
+}
+
+input[type="checkbox"].TV + label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+input[type="checkbox"].TV + label::before {
+  content: "";
+  width: 5em;
+  height: 3em;
+  background-color: #aaaaaa;
+  border-radius: 2em;
+  margin-right: 0.25em;
+  transition: background-color 200ms ease-in-out;
+}
+
+input[type="checkbox"].TV + label::after {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  content: "";
+  font-size: 1.3em;
+  height: 0.9em;
+  left: 0.2em;
+  width: 1.8em;
+  height: 1.8em;
+  background-color: white;
+  color: white;
+  border-radius: 1em;
+  transition: background-color 200ms ease-in-out, transform 200ms ease-in-out;
+}
+
+input[type="checkbox"].TV:focus + label::before {
+  outline: 1px solid black;
+}
+
+input[type="checkbox"].TV:checked + label::before {
+  background-color: #8c83ef;
+}
+
+input[type="checkbox"].TV:checked + label::after {
+  content: "";
+  transform: translateX(95%);
+  background-color: white;
+}
+.TVImg {
+  width: 16rem;
+  opacity: 0.7;
+  margin: 1.3rem 0;
+}
