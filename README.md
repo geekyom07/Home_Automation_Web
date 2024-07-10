@@ -18,8 +18,7 @@
 - Clone or download this repository.
 #### Running Locally:
 - Open `main.html` in your code editor.
-- Use a live server extension (e.g., “Live Server” in VS Code) to view the website.
-- Access the site at `http://localhost:port`.
+- Use a live server extension (e.g., “Go Live” in VS Code) to view the website.
 
 ## Usage:
 - Open the live server URL in your web browser.
